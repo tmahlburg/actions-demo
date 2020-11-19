@@ -1,4 +1,4 @@
-from Typing import List
+from typing import List
 
 
 def add(numbers: List[int]) -> int:
