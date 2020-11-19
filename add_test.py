@@ -5,7 +5,7 @@ def add(numbers: List[int]) -> int:
     result = 0
     for number in numbers:
         result += number
-    return result
+    return result + 1
 
 
 def test_add():
