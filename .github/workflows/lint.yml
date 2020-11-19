@@ -25,4 +25,4 @@ jobs:
         python3 -m pip install --upgrade pip
         pip3 install flake8
     - name: Lint with flake8
-      run: flake8 add.py --count --show-source --statistics
+      run: flake8 add_test.py --count --show-source --statistics
